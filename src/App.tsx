@@ -1,7 +1,5 @@
-import React, { FC, ChangeEvent, useState } from "react";
-import reactLogo from "./assets/react.svg";
+import { FC, useState } from "react";
 import "./App.scss";
-import ListOfTasks from "./components/list-of-tasks";
 import Task from "./components/task";
 import InputField from "./components/new-task";
 import { TaskType } from "./types";
